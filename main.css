@@ -9,34 +9,41 @@
 body {
     padding: 5%;
     font-family: 'PT Sans', sans-serif;
-    font-size: 1.3rem;
-    background-color: #181818;
+    font-size: 1rem;
+    background-color: #000;
     color: whitesmoke;
-    text-align: center;
+}
+
+main {
+    max-width: 500px;
 }
 
 h1 {
-    font-weight: 400;
-    font-size: 1.4rem;
+    color: rgb(188, 188, 188);
 }
 
-footer {
-    margin-top: 10px;
+p {
+    color: rgb(188, 188, 188);
+    padding-top: 10px;
+    line-height: 1.5rem;
 }
 
-ul {
-    list-style: none;
-    line-height: 2rem;
+.highlight {
+    /* color: rgb(195, 161, 145); */
+    color: #fff;
+    font-style: italic;
 }
+
+/* Links */
 
 a {
-    color: rgb(194, 194, 194);
-    text-decoration-color: rgb(194, 194, 194, 0.5);
+    color: rgb(91, 139, 221);
+    text-decoration-color: rgb(91, 139, 221, 0.5);
 }
 
 a:hover, a:focus {
-    color: rgb(230, 230, 250);
-    text-decoration-color: rgb(230, 230, 250, 0.5);
+    color: rgb(145, 182, 246);
+    text-decoration-color: rgb(145, 182, 246, 0.5);
 }
 
 a:active {
