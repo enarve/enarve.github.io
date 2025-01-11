@@ -49,3 +49,21 @@ a:active {
     color: rgb(245, 245, 245);
     text-decoration-color: rgb(245, 245, 245, 0.5);
 }
+
+ul.links {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    /* float: left; */
+    display: inline;
+}
+
+.links li a {
+    /* display: inline-block; */
+    display: inline-block;
+    margin-right: 8px;
+}
