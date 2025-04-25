@@ -15,15 +15,16 @@ body {
 }
 
 main {
-    max-width: 500px;
+    max-width: 350px;
 }
 
 h1 {
-    color: rgb(188, 188, 188);
+    color: rgb(207, 207, 207);
+    font-size: 1.8rem;
 }
 
 p {
-    color: rgb(188, 188, 188);
+    color: rgb(207, 207, 207);
     padding-top: 10px;
     line-height: 1.5rem;
 }
