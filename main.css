@@ -23,7 +23,7 @@ h1 {
     font-size: 1.8rem;
 }
 
-p {
+p, span {
     color: rgb(207, 207, 207);
     padding-top: 10px;
     line-height: 1.5rem;
